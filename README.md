@@ -16,8 +16,8 @@ Log about every session's details
 
 1. HTML Formatting
 2. Tables
-3. list
-4. Forms
+3. List: Ordered List and unordered list
+4. Forms and various types of inputs available like text email color etc
 
 ---
 
