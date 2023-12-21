@@ -18,7 +18,14 @@ Log about every session's details
 2. Tables
 3. list
 4. Forms
-5. Semantic Elements
-6. HTML5 vs HTML4
 
 ---
+
+22 Dec 2023
+
+1. Semantic Elements
+2. HTML5 vs HTML4
+
+Resources used:
+
+1. link: https://www.youtube.com/embed/IknxlIZhwcE
