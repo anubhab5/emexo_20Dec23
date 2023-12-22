@@ -25,6 +25,10 @@ Log about every session's details
 
 1. Semantic Elements
 2. HTML5 vs HTML4
+3. pre tag
+4. textarea
+
+---
 
 Resources used:
 
