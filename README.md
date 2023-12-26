@@ -39,8 +39,9 @@ Log about every session's details
 1. CSS3 Syntax
 2. Selectors
 3. Different ways of adding styles
-4. Box Model => Border Radius
-5. outline
+4. Box Model
+5. Border Radius
+6. outline
 
 ---
 
