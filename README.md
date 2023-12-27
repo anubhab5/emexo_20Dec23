@@ -50,17 +50,22 @@ Log about every session's details
 1. Dimension units
 2. Display property
 3. Position
-4. Float
-5. opacity
-6. Background
-7. Text Effects, shadow
-8. Text overflow; word break; word-wrap
-9. Fonts
-10. Styling Lists, texts, links
-11. Styling tables
-12. Transform (2d 3d)
-13. Transitions
-14. Bootstrap
+4. opacity
+
+---
+
+28 Dec 2023
+
+1. Float
+2. Background
+3. Text Effects, shadow
+4. Text overflow; word break; word-wrap
+5. Fonts
+6. Styling Lists, texts, links
+7. Styling tables
+8. Transform (2d 3d)
+9. Transitions
+10. Bootstrap
 
 ---
 
