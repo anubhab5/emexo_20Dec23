@@ -69,6 +69,19 @@ Log about every session's details
 
 ---
 
+# Javascript
+
+1. Introduction
+2. Internal vs External Script
+3. Variable declaration (var, (let const))
+4. Commenting the code
+
+---
+
+5. Objects in JS
+6. Array
+7. Comparison
+
 Resources used:
 
 1. link: https://www.youtube.com/embed/IknxlIZhwcE
