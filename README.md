@@ -71,29 +71,35 @@ Log about every session's details
 
 # Javascript
 
+04 Jan 2024
+
 1. Introduction
 2. Internal vs External Script
-3. Variable declaration (var, (let const))
+3. Variable declaration (var)
 4. Commenting the code
 
 ---
 
-1. Comparison using if, else, else-if
-2. switch-case
-3. loop: - for, while, do-while
-4. Array
-5. Objects in JS
-6. Events in JS
-7. Form handling
-8. Error Handling
-9. Closure
-10. IIFE
-11. Cookies
-12. DOM and manipulating DOM
-13. BOM
-14. Date and Time
-15. JSON
-16. AJAX call using JS
+05 Jan 2024
+
+1. Objects in JS
+2. Comparison using if, else, else-if
+3. Array
+
+---
+
+1. switch-case
+2. loop: - for, while, do-while
+3. Events in JS
+4. Form handling
+5. Error Handling
+6. Closure
+7. Cookies
+8. DOM and manipulating DOM
+9. BOM
+10. Date and Time
+11. JSON
+12. AJAX call using JS
 
 Resources used:
 
