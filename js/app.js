@@ -11,7 +11,19 @@
 function addValues(num1, num2) {
     // console.log(num1);
     // console.log(num2);
-    console.log(num1+num2);
+    console.log(num1 + num2);
 }
 
 addValues("rahul", 4);
+
+function mouseEnterFn() {
+    console.log("mouse enter");
+}
+
+function mouseLeaveFn() {
+    console.log("mouse Leave called");
+}
+
+function mouseClickFn() {
+    console.log("mouse clicked");
+}

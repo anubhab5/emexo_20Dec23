@@ -78,9 +78,22 @@ Log about every session's details
 
 ---
 
+1. Comparison using if, else, else-if
+2. switch-case
+3. loop: - for, while, do-while
+4. Array
 5. Objects in JS
-6. Array
-7. Comparison
+6. Events in JS
+7. Form handling
+8. Error Handling
+9. Closure
+10. IIFE
+11. Cookies
+12. DOM and manipulating DOM
+13. BOM
+14. Date and Time
+15. JSON
+16. AJAX call using JS
 
 Resources used:
 
