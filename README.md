@@ -88,18 +88,27 @@ Log about every session's details
 
 ---
 
+06 Jan 2024
+
 1. switch-case
 2. loop: - for, while, do-while
 3. Events in JS
-4. Form handling
-5. Error Handling
-6. Closure
-7. Cookies
-8. DOM and manipulating DOM
-9. BOM
-10. Date and Time
-11. JSON
-12. AJAX call using JS
+
+---
+
+07 Jan 2024
+
+1. Form handling
+2. DOM and manipulating DOM
+3. Error Handling
+4. Closure
+5. Cookies
+6. BOM
+7. Date and Time
+8. JSON
+9. AJAX call using JS
+
+---
 
 Resources used:
 
