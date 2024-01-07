@@ -100,13 +100,18 @@ Log about every session's details
 
 1. Form handling
 2. DOM and manipulating DOM
-3. Error Handling
-4. Closure
-5. Cookies
-6. BOM
-7. Date and Time
-8. JSON
-9. AJAX call using JS
+3. Cookies
+4. BOM
+
+---
+
+08 Jan 2024
+
+1. Closure
+2. Error Handling
+3. Date and Time
+4. JSON
+5. AJAX call using JS
 
 ---
 
