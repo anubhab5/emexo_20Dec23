@@ -155,32 +155,32 @@
 
 // console.log(document.querySelectorAll('p.intro')[1].innerHTML);
 
-const para = document.createElement('p');
-const value = document.createTextNode("This is new para.123");
-para.style = 'background: blue; color: white';
-para.className = 'container';
+// const para = document.createElement('p');
+// const value = document.createTextNode("This is new para.123");
+// para.style = 'background: blue; color: white';
+// para.className = 'container';
 
 
-function eventListener() {
-    console.log("clicked");
-}
+// function eventListener() {
+//     console.log("clicked");
+// }
 
 
-para.appendChild(value);
-para.addEventListener('dblclick', eventListener)
+// para.appendChild(value);
+// para.addEventListener('dblclick', eventListener)
 
-document.getElementById('container').appendChild(para);
+// document.getElementById('container').appendChild(para);
 
 
-let arr = [1, 2, 3, 4];
-arr.push(99)
-console.log(arr)
-arr.pop();
-console.log(arr)
-arr.unshift(0);
-console.log(arr);
-arr.shift();
-console.log(arr);
+// let arr = [1, 2, 3, 4];
+// arr.push(99)
+// console.log(arr)
+// arr.pop();
+// console.log(arr)
+// arr.unshift(0);
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
 
 
 // const toBeRemoved = document.getElementById('state');
@@ -208,7 +208,120 @@ console.log(arr);
 
 // const nameIs = prompt("Please enter your name", "Harry Potter")
 // console.log(nameIs + " My name ");
-// 
+//
 
 // // expires=Thu, 01 Jan 1970 00:00:01 GMT;
-document.cookie = "username=ram123;expires=Thu, 07 Jan 2024 09:22:10 GMT"
+// document.cookie = "username=ram123;expires=Thu, 07 Jan 2024 09:22:10 GMT"
+
+//
+//
+//
+
+// slice vs splice
+// array.slice(start, end)
+// array.splice(index, howmany, item1, ....., itemX)
+
+// Create a new XMLHttpRequest object
+const xhr = new XMLHttpRequest();
+// Open a connection to the server
+xhr.open('GET', 'https://reqres.in/api/users', true);
+// Set the request headers
+xhr.setRequestHeader('Content-Type', 'application/json');
+// Send the request
+xhr.send();
+// Handle the response
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        console.log(xhr.responseText);
+    }
+};
+
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     fullName: function (age) {
+//         return this.firstName + " " + this.lastName + " Age is " + age;
+//     }
+// };
+
+// person1 = {
+//     firstName: "Ram",
+//     lastName: "Sharma"
+// }
+
+// console.log(person.fullName(21));
+
+// console.log(person.fullName.call(person1, 22));
+// console.log(person.fullName.apply(person1, [23]));
+
+var marks = 23;
+
+// console.log(typeof marks);
+
+// if (marks === 23) {
+//     console.log("if block");
+// } else {
+//     console.log("else block");
+// }
+
+function myFunc() {
+    console.log("Inside a function random");
+}
+
+function myFunc2() {
+    console.log("Its very high");
+}
+
+function alertMe() {
+    alert('alert me');
+}
+
+function add(num1, num2, cb) {
+    console.log('hii');
+    if (num1 + num2 > 10) {
+        cb();
+    }
+    return (num1 + num2 + 2);
+}
+
+// var sum = add(1, 22, alertMe);
+// add(11, 2, myFunc2);
+
+// console.log(sum);
+
+// alertMe();
+
+
+// function outside() {
+
+//     var outsideFuncVar = 12;
+//     // return 5;
+//     return function inside() {
+
+//         console.log("outside var value is ", outsideFuncVar);
+//     }
+
+// }
+
+// var abc = outside();
+// // console.log("outsideFuncVar ", outsideFuncVar);
+// abc();
+// try {
+//     var num1 = 10;
+//     var num2 = 0;
+//     if (num2 === 0) {
+//         throw "Divison by Zero";
+//     }
+//     console.log(num1 / num2);
+// } catch (exp) {
+//     console.log(exp);
+// } finally {
+//     console.log('In finally')
+// }
+
+// var myDate = new Date();
+// console.log(myDate.getHours());
+
+
+
+console.log(new Date(2024, 2, 13).toLocaleDateString('it', 'YYYY-MM-DD'))

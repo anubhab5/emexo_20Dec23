@@ -115,6 +115,9 @@ Log about every session's details
 5. Date and Time
 6. JSON
 7. Closure
+
+---
+
 8. call and apply
 9. AJAX call using JS
 
