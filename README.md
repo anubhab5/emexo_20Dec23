@@ -102,16 +102,21 @@ Log about every session's details
 2. DOM and manipulating DOM
 3. Cookies
 4. BOM
+5. array methods: push, pop, shift, unshift
 
 ---
 
 08 Jan 2024
 
-1. Closure
-2. Error Handling
-3. Date and Time
-4. JSON
-5. AJAX call using JS
+1. == vs ===
+2. function return
+3. Error Handling
+4. debugging the code
+5. Date and Time
+6. JSON
+7. Closure
+8. call and apply
+9. AJAX call using JS
 
 ---
 
