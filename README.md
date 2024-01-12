@@ -118,8 +118,18 @@ Log about every session's details
 
 ---
 
+10 Jan 2024
+
 8. call and apply
 9. AJAX call using JS
+
+# JQuery
+
+1. Adding JQuery
+2. Selecting an element
+3. Applying style
+4. Events and callback
+5. Hiding elements
 
 ---
 

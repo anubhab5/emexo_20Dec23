@@ -220,21 +220,23 @@
 // slice vs splice
 // array.slice(start, end)
 // array.splice(index, howmany, item1, ....., itemX)
+// console.log('111111111111111');
 
-// Create a new XMLHttpRequest object
-const xhr = new XMLHttpRequest();
-// Open a connection to the server
-xhr.open('GET', 'https://reqres.in/api/users', true);
-// Set the request headers
-xhr.setRequestHeader('Content-Type', 'application/json');
-// Send the request
-xhr.send();
-// Handle the response
-xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-        console.log(xhr.responseText);
-    }
-};
+// // Create a new XMLHttpRequest object
+// const xhr = new XMLHttpRequest();
+// // Open a connection to the server
+// xhr.open('GET', 'https://reqres.in/api/users', true);
+// // Set the request headers
+// xhr.setRequestHeader('Content-Type', 'application/json');
+// // Send the request
+// xhr.send();
+// // Handle the response
+// xhr.onreadystatechange = function () {
+//     if (xhr.readyState === 4 && xhr.status === 200) {
+//         console.log(xhr.responseText);
+//     }
+// };
+// console.log('111111111111111');
 
 // const person = {
 //     firstName: "John",
@@ -254,7 +256,7 @@ xhr.onreadystatechange = function () {
 // console.log(person.fullName.call(person1, 22));
 // console.log(person.fullName.apply(person1, [23]));
 
-var marks = 23;
+// var marks = 23;
 
 // console.log(typeof marks);
 
@@ -264,25 +266,25 @@ var marks = 23;
 //     console.log("else block");
 // }
 
-function myFunc() {
-    console.log("Inside a function random");
-}
+// function myFunc() {
+//     console.log("Inside a function random");
+// }
 
-function myFunc2() {
-    console.log("Its very high");
-}
+// function myFunc2() {
+//     console.log("Its very high");
+// }
 
-function alertMe() {
-    alert('alert me');
-}
+// function alertMe() {
+//     alert('alert me');
+// }
 
-function add(num1, num2, cb) {
-    console.log('hii');
-    if (num1 + num2 > 10) {
-        cb();
-    }
-    return (num1 + num2 + 2);
-}
+// function add(num1, num2, cb) {
+//     console.log('hii');
+//     if (num1 + num2 > 10) {
+//         cb();
+//     }
+//     return (num1 + num2 + 2);
+// }
 
 // var sum = add(1, 22, alertMe);
 // add(11, 2, myFunc2);
@@ -322,6 +324,95 @@ function add(num1, num2, cb) {
 // var myDate = new Date();
 // console.log(myDate.getHours());
 
+// console.log(new Date(2024, 2, 13));
 
+// const actions = {
+//     sayMyName: function (greeting) {
+//         console.log(greeting + ' My first Name is: ' + this.firstName)
+//     },
+//     sayMyAge: function () {
+//         console.log('Age is: ' + this.age)
+//     }
+// }
 
-console.log(new Date(2024, 2, 13).toLocaleDateString('it', 'YYYY-MM-DD'))
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 21
+// };
+
+// const person1 = {
+//     firstName: "Mary",
+//     lastName: "Doe",
+//     age: 23
+// };
+
+// actions.sayMyName.call(person, 'hello');
+// actions.sayMyName.call(person1, 'hi');
+// console.log('')
+// actions.sayMyName.apply(person, ['hello']);
+// actions.sayMyName.apply(person1, ['hi']);
+
+$(document).ready(function () {
+
+    // $("p").click(function () {
+    //     $(".intro").hide();
+    //     $("#country").hide();
+    //     // console.log("clicked");
+    // });
+
+    // $("p").on("click", function () {
+    //     $(this).hide();
+    // });
+
+    // $("p").on({
+    //     mouseenter: function () {
+    //         $(this).css("background-color", "lightgray");
+    //     },
+    //     mouseleave: function () {
+    //         $(this).css("background-color", "lightblue");
+    //     },
+    //     click: function () {
+    //         $(this).css("background-color", "yellow");
+    //     }
+    // });
+
+    // $("input").focus(function () {
+    //     $(this).css("background-color", "#cccccc");
+    // });
+
+    // $("p").append("Some appended text.");
+
+    // var txt1 = "<p>Text.</p>";               // Create element with HTML
+    // var txt2 = $("<p></p>").text("Text.");   // Create with jQuery
+    // var txt3 = document.createElement("p");  // Create with DOM
+    // txt3.innerHTML = "Text.";
+    // $("body").append(txt1, txt2, txt3);
+
+});
+
+// var person_3 = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 22,
+//     sayMyName: function (greeting, isPassed) {
+//         console.log(greeting + " " + isPassed + " " + this.firstName, this.lastName, this.age);
+//     }
+// };
+
+// var person_4 = {
+//     firstName: "Mary",
+//     lastName: "Fischer",
+//     age: 21
+// };
+
+// var person_5 = {
+//     firstName: "Mark",
+//     lastName: "Zu",
+//     age: 25
+// };
+
+// person_3.sayMyName("hi", true);
+// person_3.sayMyName.call(person_4, "hello", false);
+// var arr = ["hi", false];
+// person_3.sayMyName.apply(person_5, arr);
