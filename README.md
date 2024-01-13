@@ -133,6 +133,19 @@ Log about every session's details
 
 ---
 
+12 Jan 2024
+
+# Angular
+
+1. Angular Basics
+2. Installation
+3. Typescript basic features
+
+---
+
+1. Understanding Component
+2. Creating component using cli
+
 Resources used:
 
 1. link: https://www.youtube.com/embed/IknxlIZhwcE
