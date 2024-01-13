@@ -143,6 +143,8 @@ Log about every session's details
 
 ---
 
+13 Jan 2024
+
 1. Understanding Component
 2. Creating component using cli
 
