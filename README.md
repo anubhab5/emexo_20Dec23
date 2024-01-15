@@ -148,6 +148,11 @@ Log about every session's details
 1. Understanding Component
 2. Creating component using cli
 
+15 Jan 2024
+
+1. Installing Bootstrap and using bootstrap components
+2.
+
 Resources used:
 
 1. link: https://www.youtube.com/embed/IknxlIZhwcE

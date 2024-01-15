@@ -1,3 +1,3 @@
-<app-my-card></app-my-card>
-<app-my-card></app-my-card>
-<app-my-card></app-my-card>
+<div *ngFor="let prod1 of productDetails">
+  <app-my-card [product]="prod1"></app-my-card>
+</div>
