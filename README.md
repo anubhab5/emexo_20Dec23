@@ -151,7 +151,13 @@ Log about every session's details
 15 Jan 2024
 
 1. Installing Bootstrap and using bootstrap components
-2.
+2. @Input() decorator
+3. Structural Directive :- *ngFor, *ngIf
+4. Module basic structure
+
+17 Jan 2024
+
+1. @Output()
 
 Resources used:
 
