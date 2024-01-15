@@ -158,6 +158,17 @@ Log about every session's details
 17 Jan 2024
 
 1. @Output()
+2. ngStyle, ngClass
+3. Built in pipes
+4. Creating Custom directive
+5. Creating custom pipe
+6. Service in angular
+7. Creating service
+8. Dependency Injection
+9. http request (RxJs)
+10. ngOnInit, ngOnChanges, ngOnDestroy
+11. Routing in angular
+12. Forms, Form validation
 
 Resources used:
 

@@ -1,3 +1,6 @@
-<div *ngFor="let prod1 of productDetails">
-  <app-my-card [product]="prod1"></app-my-card>
+<ss-heading></ss-heading>
+<div class="container d-sm-flex mt-4">
+  <div *ngFor="let prod1 of productDetails" class="m-1">
+    <app-my-card [product]="prod1"></app-my-card>
+  </div>
 </div>

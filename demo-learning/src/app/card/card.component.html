@@ -1,7 +1,7 @@
 <div class="card text-dark bg-light mb-3" style="max-width: 18rem">
   <div class="card-header">{{ product.productName }}</div>
   <div class="card-body">
-    <h5 class="card-title">Light card title</h5>
+    <h5 class="card-title">{{ product.productDescription }}</h5>
     <p class="card-text" *ngIf="product.isVeg === true">Veg</p>
     <p class="card-text" *ngIf="product.isVeg === false">Non-Veg</p>
   </div>
