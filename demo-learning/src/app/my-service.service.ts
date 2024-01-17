@@ -1,26 +1,14 @@
-import { Component } from '@angular/core';
-import { Product } from './card/product';
-import { MyServiceService } from './my-service.service';
+import { Injectable } from '@angular/core';
 import { DemoServiceService } from './demo-service.service';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+@Injectable({
+  providedIn: 'root',
 })
-export class AppComponent {
-  //
-  todayDate = new Date();
-
-  // productService = new MyServiceService('kd', 0);
-
-  constructor(
-    private productService: MyServiceService,
-    private demoSvc: DemoServiceService
-  ) {}
-
+export class MyServiceService {
+  myName: string = '';
+  mySal: number = 0;
   // Product Details List
-  productDetails = [
+  private productDetails = [
     {
       productId: 1,
       productName: 'IceCream',
@@ -71,11 +59,10 @@ export class AppComponent {
     },
   ];
 
-  addToCartFn(data: Product) {
-    console.log('In the parent component', data);
+  constructor(private demoSvc: DemoServiceService) {}
 
-    this.productService.getProducts();
-
+  getProducts() {
     this.demoSvc.add();
+    return this.productDetails;
   }
 }

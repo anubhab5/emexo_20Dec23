@@ -1,6 +1,15 @@
 <ss-heading></ss-heading>
-<div class="container d-sm-flex mt-4">
-  <div *ngFor="let prod1 of productDetails" class="m-1">
-    <app-my-card [product]="prod1"></app-my-card>
+<p class="mt-4 alert alert-dark d-block text-center rounded-0">
+  <strong class="text-success"><i>Today:</i></strong>
+  {{ todayDate | date : "medium" }}
+</p>
+<div class="container mt-4">
+  <div class="row">
+    <div *ngFor="let prod1 of productDetails" class="col-md-3">
+      <app-my-card
+        [product]="prod1"
+        (addToCartEvent)="addToCartFn($event)"
+      ></app-my-card>
+    </div>
   </div>
 </div>
