@@ -148,6 +148,8 @@ Log about every session's details
 1. Understanding Component
 2. Creating component using cli
 
+---
+
 15 Jan 2024
 
 1. Installing Bootstrap and using bootstrap components
@@ -155,20 +157,28 @@ Log about every session's details
 3. Structural Directive :- *ngFor, *ngIf
 4. Module basic structure
 
+---
+
 17 Jan 2024
 
 1. @Output()
 2. ngStyle, ngClass
 3. Built in pipes
-4. Creating Custom directive
-5. Creating custom pipe
-6. Service in angular
-7. Creating service
-8. Dependency Injection
-9. http request (RxJs)
-10. ngOnInit, ngOnChanges, ngOnDestroy
-11. Routing in angular
-12. Forms, Form validation
+4. Service in angular
+5. Creating Service
+6. Dependency Injection
+7. Creating custom pipe
+
+---
+
+19 Jan 2024
+
+1. Creating Custom directive
+2. http request (RxJs)
+3. ngOnInit, ngOnChanges, ngOnDestroy
+4. Routing in angular
+5. Forms, Form validation
+6. Authentication using JWT
 
 Resources used:
 
