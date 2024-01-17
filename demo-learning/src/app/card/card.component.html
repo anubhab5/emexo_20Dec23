@@ -1,10 +1,10 @@
 <div
-  class="card text-dark border-danger bg-light mb-3"
+  class="card text-dark rounded-2 shadow bg-light mb-3"
   style="min-width: 16rem"
 >
   <div class="card-header">
-    <h5>
-      {{ product.productName | lowercase }}
+    <h5 class="text-center text-shadow-2" [style]="{ 'letter-spacing': '2px' }">
+      {{ product.productName | uppercase }}
     </h5>
   </div>
   <div class="card-body">

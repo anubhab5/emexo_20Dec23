@@ -1,12 +1,9 @@
 import { Injectable } from '@angular/core';
-import { DemoServiceService } from './demo-service.service';
 
 @Injectable({
   providedIn: 'root',
 })
-export class MyServiceService {
-  myName: string = '';
-  mySal: number = 0;
+export class ProductService {
   // Product Details List
   private productDetails = [
     {
@@ -59,10 +56,10 @@ export class MyServiceService {
     },
   ];
 
-  constructor(private demoSvc: DemoServiceService) {}
+  constructor() {}
 
+  // Return product List
   getProducts() {
-    this.demoSvc.add();
     return this.productDetails;
   }
 }

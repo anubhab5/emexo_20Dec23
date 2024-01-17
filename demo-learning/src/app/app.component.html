@@ -3,13 +3,4 @@
   <strong class="text-success"><i>Today:</i></strong>
   {{ todayDate | date : "medium" }}
 </p>
-<div class="container mt-4">
-  <div class="row">
-    <div *ngFor="let prod1 of productDetails" class="col-md-3">
-      <app-my-card
-        [product]="prod1"
-        (addToCartEvent)="addToCartFn($event)"
-      ></app-my-card>
-    </div>
-  </div>
-</div>
+<ss-product-list></ss-product-list>

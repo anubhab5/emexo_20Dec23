@@ -175,8 +175,13 @@ Log about every session's details
 1. Creating custom pipe
 2. Creating Custom directive
 3. http request (RxJs)
-4. ngOnInit, ngOnChanges, ngOnDestroy
-5. Routing in angular
+4. Routing in angular
+
+---
+
+20 Jan 2024
+
+5. ngOnInit, ngOnChanges, ngOnDestroy
 6. Forms, Form validation
 7. Authentication using JWT
 
