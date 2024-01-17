@@ -167,18 +167,18 @@ Log about every session's details
 4. Service in angular
 5. Creating Service
 6. Dependency Injection
-7. Creating custom pipe
 
 ---
 
 19 Jan 2024
 
-1. Creating Custom directive
-2. http request (RxJs)
-3. ngOnInit, ngOnChanges, ngOnDestroy
-4. Routing in angular
-5. Forms, Form validation
-6. Authentication using JWT
+1. Creating custom pipe
+2. Creating Custom directive
+3. http request (RxJs)
+4. ngOnInit, ngOnChanges, ngOnDestroy
+5. Routing in angular
+6. Forms, Form validation
+7. Authentication using JWT
 
 Resources used:
 
