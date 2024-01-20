@@ -170,16 +170,20 @@ Log about every session's details
 
 ---
 
-19 Jan 2024
+20 Jan 2024
 
 1. Creating custom pipe
 2. Creating Custom directive
 3. http request (RxJs)
 4. Routing in angular
+5. Setting up the route
+6. navigation using routing
+7. Passing parameters
+8. Retrieving the parameter
 
 ---
 
-20 Jan 2024
+21 Jan 2024
 
 5. ngOnInit, ngOnChanges, ngOnDestroy
 6. Forms, Form validation
