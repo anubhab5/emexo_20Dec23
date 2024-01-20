@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Product } from './product';
+import { Product } from '../product';
 
 @Component({
   selector: 'app-my-card',
@@ -21,5 +21,12 @@ export class CardComponent {
 
   addToCart(product: Product) {
     this.addToCartEvent.emit(product);
+  }
+
+  isBtnDisabled() {
+    if (Number(this.product.quantityAvailable) === 0) {
+      return true;
+    }
+    return false;
   }
 }

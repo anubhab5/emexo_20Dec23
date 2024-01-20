@@ -17,7 +17,13 @@
       {{ product.productDescription }}
     </p>
 
-    <p>{{ product.productPrice | currency : "INR" }}</p>
+    <p>
+      <span>PRICE</span>:
+      <span ssMyTestDir>
+        {{ product.productPrice | myTest : 5 | currency : "INR" }}
+      </span>
+    </p>
+    <p><span>QTY Available</span>: {{ product.quantityAvailable }}</p>
 
     <span class="card-text" *ngIf="product.isVeg === true">
       <img src="../../assets/veg.png" alt="" />
@@ -28,8 +34,15 @@
     <br />
   </div>
   <div class="card-footer d-flex flex-row-reverse">
-    <button type="button" class="btn btn-link">Detail</button>
     <button
+      type="button"
+      class="btn btn-link"
+      [routerLink]="['/product', product.productId]"
+    >
+      Detail
+    </button>
+    <button
+      [disabled]="isBtnDisabled()"
       type="button"
       (click)="addToCart(product)"
       class="btn btn-primary rounded-0"
@@ -38,7 +51,3 @@
     </button>
   </div>
 </div>
-
-<!-- [ngStyle]="product.isVeg === false ? { color: 'red' } : { color: 'green' }" -->
-
-<!-- [ngClass]="{ 'text-success': product.isVeg === true, 'text-danger': product.isVeg === false }" -->

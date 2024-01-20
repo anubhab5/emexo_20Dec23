@@ -1,5 +1,10 @@
 <nav class="navbar navbar-dark bg-success">
-  <a class="navbar-brand ms-2">Get Basket</a>
+  <a
+    class="navbar-brand ms-2"
+    [routerLink]="['/products']"
+    [ngStyle]="{ cursor: 'pointer' }"
+    >My Basket</a
+  >
   <form class="form-inline d-flex">
     <input
       class="form-control mr-sm-2 rounded-0"
@@ -11,7 +16,9 @@
       Search
     </button>
     <button type="button" class="btn btn-primary mx-3 rounded-0">
-      <span class="badge badge-light"> {{ getShoppingList() }}</span>
+      <span [routerLink]="['/cart']" class="badge badge-light">
+        {{ getShoppingList() }}</span
+      >
     </button>
   </form>
 </nav>

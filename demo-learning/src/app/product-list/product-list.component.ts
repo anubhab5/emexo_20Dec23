@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { ProductService } from '../product.service';
-import { Product } from '../card/product';
+import { Product } from '../product';
 import { ShoppingListService } from '../shopping-list.service';
+import { ShoppingList } from '../shopping-list';
 
 @Component({
   selector: 'ss-product-list',
@@ -18,7 +19,7 @@ export class ProductListComponent {
     this.productList = this.productService.getProducts();
   }
 
-  addToCartFn(product: Product) {
+  addToCartFn(product: ShoppingList) {
     this.shoppingListSvc.addToShoppingList(product);
   }
 }

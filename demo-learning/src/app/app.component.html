@@ -1,6 +1,8 @@
 <ss-heading></ss-heading>
 <p class="mt-4 alert alert-dark d-block text-center rounded-0">
   <strong class="text-success"><i>Today:</i></strong>
-  {{ todayDate | date : "medium" }}
+  {{ getCurrentDate() | date : "medium" }}
 </p>
 <ss-product-list></ss-product-list>
+<!-- <ss-login></ss-login> -->
+<!-- <router-outlet></router-outlet> -->

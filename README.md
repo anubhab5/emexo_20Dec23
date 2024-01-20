@@ -174,6 +174,11 @@ Log about every session's details
 
 1. Creating custom pipe
 2. Creating Custom directive
+
+---
+
+21 Jan 2024
+
 3. http request (RxJs)
 4. Routing in angular
 5. Setting up the route
@@ -183,7 +188,7 @@ Log about every session's details
 
 ---
 
-21 Jan 2024
+22 Jan 2024
 
 5. ngOnInit, ngOnChanges, ngOnDestroy
 6. Forms, Form validation

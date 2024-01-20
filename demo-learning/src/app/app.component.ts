@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Product } from './card/product';
+import { Product } from './product';
 import { ProductService } from './product.service';
 
 @Component({
@@ -8,14 +8,19 @@ import { ProductService } from './product.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  //
-  todayDate = new Date();
-
-  // productService = new MyServiceService('kd', 0);
-
   constructor() {}
+
+  ngOnInit() {
+    setInterval(() => {
+      this.getCurrentDate();
+    }, 1000);
+  }
 
   addToCartFn(data: Product) {
     console.log('In the parent component', data);
+  }
+
+  getCurrentDate() {
+    return new Date();
   }
 }

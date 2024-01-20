@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Product } from './card/product';
+import { Product } from './product';
+import { ShoppingList } from './shopping-list';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class ShoppingListService {
-  private shoppingList: Product[] = [];
+  private shoppingList: ShoppingList[] = [];
 
   constructor() {}
 
@@ -13,7 +12,16 @@ export class ShoppingListService {
     return this.shoppingList;
   }
 
-  addToShoppingList(item: Product) {
-    this.shoppingList.push(item);
+  addToShoppingList(item: ShoppingList) {
+    debugger;
+    if (Number(item.quantityAvailable) > 0) {
+      this.shoppingList.push(item);
+      item.quantityAvailable = Number(item.quantityAvailable) - 1 + '';
+      if (!item.quantityAdded) {
+        item.quantityAdded = 1;
+      } else {
+        item.quantityAdded++;
+      }
+    }
   }
 }

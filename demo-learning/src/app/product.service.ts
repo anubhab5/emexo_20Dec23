@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -56,10 +57,15 @@ export class ProductService {
     },
   ];
 
-  constructor() {}
+  constructor(private http: HttpClient) {}
 
   // Return product List
   getProducts() {
+    // return this.http.get('http://localhost:3000/products');
     return this.productDetails;
+  }
+
+  getProductById(id: number) {
+    return this.http.get(`http://localhost:3000/products/${id}`);
   }
 }
