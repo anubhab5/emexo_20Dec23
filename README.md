@@ -179,21 +179,24 @@ Log about every session's details
 
 21 Jan 2024
 
-3. http request (RxJs)
-4. Routing in angular
-5. Setting up the route
-6. navigation using routing
-7. Passing parameters
-8. Retrieving the parameter
+1. http request (RxJs)
+2. Routing in angular
+3. Setting up the route
+4. navigation using routing
+5. Passing parameters
+6. Retrieving the parameter
+7. ngOnInit, ngOnChanges, ngOnDestroy
+8. Forms, Form validation
 
 ---
 
 22 Jan 2024
 
-5. ngOnInit, ngOnChanges, ngOnDestroy
-6. Forms, Form validation
-7. Authentication using JWT
+1. Authentication using JWT
+2. Unit Test
+
+---
 
 Resources used:
 
-1. link: https://www.youtube.com/embed/IknxlIZhwcE
+4. link: https://www.youtube.com/embed/IknxlIZhwcE

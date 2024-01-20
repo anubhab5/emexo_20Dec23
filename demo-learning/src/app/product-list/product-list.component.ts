@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ProductService } from '../product.service';
+import { ProductService } from '../services/product.service';
 import { Product } from '../product';
-import { ShoppingListService } from '../shopping-list.service';
+import { ShoppingListService } from '../services/shopping-list.service';
 import { ShoppingList } from '../shopping-list';
 
 @Component({

@@ -9,11 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { AppRoutingModule } from './app.routing.module';
 import { HttpClientModule } from '@angular/common/http';
-import { DiscountPipe } from './discount.pipe';
-import { HighlighterDirective } from './highlighter.directive';
-import { ShoppingListService } from './shopping-list.service';
-import { MyTestPipe } from './my-test.pipe';
-import { MyTestDirDirective } from './my-test-dir.directive';
+import { DiscountPipe } from './custom-pipe/discount.pipe';
+import { ShoppingListService } from './services/shopping-list.service';
+import { HighlighterDirective } from './custom-directives/highlighter.directive';
 
 @NgModule({
   declarations: [
@@ -25,8 +23,6 @@ import { MyTestDirDirective } from './my-test-dir.directive';
     ShoppingListComponent,
     DiscountPipe,
     HighlighterDirective,
-    MyTestPipe,
-    MyTestDirDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [ShoppingListService],
