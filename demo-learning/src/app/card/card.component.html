@@ -20,7 +20,7 @@
     <p>
       <span>PRICE</span>:
       <span ssMyTestDir>
-        {{ product.productPrice | myTest : 5 | currency : "INR" }}
+        {{ product.productPrice | discount : "15" | currency : "INR" }}
       </span>
     </p>
     <p><span>QTY Available</span>: {{ product.quantityAvailable }}</p>

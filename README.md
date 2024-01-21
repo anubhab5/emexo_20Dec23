@@ -185,15 +185,15 @@ Log about every session's details
 4. navigation using routing
 5. Passing parameters
 6. Retrieving the parameter
-7. ngOnInit, ngOnChanges, ngOnDestroy
-8. Forms, Form validation
 
 ---
 
 22 Jan 2024
 
-1. Authentication using JWT
-2. Unit Test
+1. ngOnInit, ngOnChanges, ngOnDestroy
+2. Forms, Form validation
+3. Authentication using JWT
+4. Unit Test
 
 ---
 

@@ -14,7 +14,8 @@ export class ProductDetailComponent {
     private activatedRoute: ActivatedRoute,
     private productSvc: ProductService
   ) {
-    this.productId = this.activatedRoute.snapshot.params['id'];
+    this.productId = this.activatedRoute.snapshot.params['idx'];
+    debugger;
     this.getProductDetail();
   }
 

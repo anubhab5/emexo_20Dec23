@@ -16,10 +16,19 @@ export class ProductListComponent {
     private productService: ProductService,
     private shoppingListSvc: ShoppingListService
   ) {
-    this.productList = this.productService.getProducts();
+    this.productList = [];
+    this.getProducts();
   }
 
   addToCartFn(product: ShoppingList) {
     this.shoppingListSvc.addToShoppingList(product);
+  }
+  // (resp: any) => {
+  //   this.productList = resp;
+  // }
+  getProducts() {
+    this.productService.getProducts().subscribe((resp: any) => {
+      this.productList = resp;
+    });
   }
 }
