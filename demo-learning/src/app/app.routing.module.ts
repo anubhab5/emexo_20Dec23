@@ -5,6 +5,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { routeGuardGuard } from './route-guard.guard';
 
 const routes: Routes = [
   {
@@ -18,6 +19,7 @@ const routes: Routes = [
   {
     path: 'products',
     component: ProductListComponent,
+    canActivate: [routeGuardGuard],
   },
   {
     path: 'product/:idx',

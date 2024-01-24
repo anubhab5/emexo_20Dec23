@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Product } from './product';
 import { ProductService } from './services/product.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +9,7 @@ import { ProductService } from './services/product.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit() {
     setInterval(() => {

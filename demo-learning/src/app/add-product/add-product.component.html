@@ -5,6 +5,7 @@
     <div class="mb-3">
       <label for="name">Product Name:</label>
       <input
+        [ngClass]="{ 'input-error': userForm.controls['productName'].valid }"
         type="text"
         id="name"
         class="form-control"
@@ -32,7 +33,7 @@
     <div class="mb-3">
       <label for="name">Quantity:</label>
       <input
-        type="text"
+        type="number"
         id="name"
         class="form-control"
         formControlName="quantityAvailable"

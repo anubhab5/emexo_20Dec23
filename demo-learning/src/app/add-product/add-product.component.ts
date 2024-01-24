@@ -13,11 +13,15 @@ export class AddProductComponent {
   constructor(private fb: FormBuilder, private prodSvc: ProductService) {
     this.userForm = this.fb.group({
       productName: ['', [Validators.required]],
-      productPrice: ['', [Validators.required]],
-      productDescription: ['', [Validators.required, Validators.minLength(6)]],
-      quantityAvailable: ['', [Validators.required]],
-      isVeg: ['', [Validators.required]],
+      productPrice: ['', [Validators.max(10), Validators.required]],
+      productDescription: [''],
+      quantityAvailable: ['', [Validators.max(10), Validators.required]],
+      isVeg: [''],
     });
+  }
+
+  ngOnDestroy() {
+    console.log('ng on destroy of add product page');
   }
 
   onSubmit(): void {

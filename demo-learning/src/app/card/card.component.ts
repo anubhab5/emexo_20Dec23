@@ -19,6 +19,10 @@ export class CardComponent {
     this.product = new Product();
   }
 
+  ngOnInit() {
+    console.log('In ng on init of card');
+  }
+
   addToCart(product: Product) {
     this.addToCartEvent.emit(product);
   }

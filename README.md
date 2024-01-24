@@ -184,18 +184,26 @@ Log about every session's details
 3. Setting up the route
 4. navigation using routing
 5. Passing parameters
-6. Retrieving the parameter
+6. Retrieving the parameter from the route
 
 ---
 
 22 Jan 2024
 
-1. ngOnInit, ngOnChanges, ngOnDestroy
-2. Forms, Form validation
+1. Forms, Form validation
+2. ngOnInit, ngOnChanges, ngOnDestroy
 3. Authentication using JWT
 4. Unit Test
 
 ---
+
+24 Jan 2024
+
+1. Array methods: - push, pop, shift, unshift, slice, splice, length, join
+2. String methods - slice, substring, length, toUpperCase, toLowerCase, concat, split
+3. this keyword
+4. pass by ref vs pass by value
+5. flex box
 
 Resources used:
 
